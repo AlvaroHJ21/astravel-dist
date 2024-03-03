@@ -1,0 +1,1 @@
+import{b as n,a as s}from"./hoisted.Cji52wqh.js";const t=document.querySelector("form");t?.addEventListener("submit",async o=>{o.preventDefault();const r=new FormData(t),a=Object.fromEntries(r.entries()),e=await n(a);e.ok?(s(e.data,e.token),location.href="/"):console.log("error")});

@@ -1,0 +1,1 @@
+import{r as t}from"./hoisted.Cji52wqh.js";const a=new URL(window.location.href),o=document.querySelector("form");o.addEventListener("submit",async r=>{r.preventDefault();const s=o.password.value,e=o.password_confirmation.value;await t(a.search,{password:s,password_confirmation:e})});
